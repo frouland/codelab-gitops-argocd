@@ -6,3 +6,11 @@ backend:
   host: fabrice-rouland-backend.codelab.cloud-sp.eu
   service:
     port: 443
+
+frontend:
+  name: frouland-front
+  image: docker.io/rkaeffer/codelab-gitops-frontend:1.0.0
+  containerPort: 4200
+  host: fabrice-rouland-frontend.codelab.cloud-sp.eu
+  service:
+    port: 443
